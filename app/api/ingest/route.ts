@@ -10,7 +10,7 @@ import { Document } from 'langchain/document';
 
 async function loadAndProcessDocuments() {
   // Path to the directory containing the PDFs
-  const docsPath = path.join(process.cwd(), '..', 'angelone-rag-chatbot', 'insurance-pdfs');
+  const docsPath = path.join(process.cwd(), 'public', 'insurance-pdfs');
   
   // First, check what files are actually in the directory
   let files: string[] = [];
